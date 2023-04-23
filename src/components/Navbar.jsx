@@ -20,11 +20,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="w-9 h-9 object-contain"
-          />
+          <span
+            onClick={() =>
+              window.open("https://github.com/RinatM01", "_blank")
+            }
+            className="text-[24px] font-bold mr-4 green-pink-gradient-text"
+          >
+            {"<devR;>"}
+          </span>
           <p className="text-white text-[18px] font-bold cursor-pointer">
             Rinat Musin
           </p>

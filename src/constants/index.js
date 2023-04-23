@@ -21,6 +21,7 @@ import {
   reactColors,
   portfolio,
   patatap,
+  colorGame,
   threejs,
 } from "../assets";
 
@@ -250,6 +251,28 @@ const projects = [
     image: patatap,
     source_code_link:
       "https://rinatm01.github.io/Patatap-Clone/Circles.html",
+  },
+  {
+    name: "The Great Color Game",
+    description:
+      "Using front-end JavaScript this game creates 3 to 6 random rgb colors, randomly chooses one of the colors to be the guessing color and displays all 3 or 6 colors in front of the user. Then based on the given RGB code the user is supposed to guess the color. This game has two difficulties: hard ans easy with 3 and 6 colors to guess respectively. As a matter of fact this game also helps to practice recognition and understanding of RGB color code.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: colorGame,
+    source_code_link:
+      "https://rinatm01.github.io/Color-Game/colorGame.html",
   },
 ];
 

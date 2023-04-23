@@ -28,6 +28,7 @@ import premium from "./company/premium.png";
 import reactColors from "./react-colors.png";
 import portfolio from "./portfolio.png";
 import patatap from "./PatotapClone.jpg";
+import colorGame from "./ColorGame.jpg";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   reactColors,
   portfolio,
   patatap,
+  colorGame,
 };

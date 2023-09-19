@@ -30,6 +30,7 @@ import reactColors from './react-colors.png';
 import portfolio from './portfolio.png';
 import patatap from './PatotapClone.jpg';
 import colorGame from './ColorGame.jpg';
+import rollUps from './roll-ups.png'
 
 export {
   logo,
@@ -61,4 +62,5 @@ export {
   portfolio,
   patatap,
   colorGame,
+  rollUps
 };

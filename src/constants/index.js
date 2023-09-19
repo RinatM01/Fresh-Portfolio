@@ -24,6 +24,7 @@ import {
   colorGame,
   threejs,
   tusi,
+  rollUps
 } from '../assets';
 
 export const navLinks = [
@@ -195,6 +196,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'Roll Ups - the websocket game',
+    description:
+      'A fun and craetive miltiplayer game that uses the websocket technology to provide live updates to the players! (It will take 1-2 minutes to spin up the node server).',
+    tags: [
+      {
+        name: 'Svelte-Kit',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'websocket-io',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind-css',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: rollUps,
+    source_code_link:
+      'https://roll-ups.onrender.com',
+  },
   {
     name: 'React Color Palettes',
     description:

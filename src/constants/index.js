@@ -24,7 +24,8 @@ import {
   colorGame,
   threejs,
   tusi,
-  rollUps
+  rollUps,
+  tashmap
 } from '../assets';
 
 export const navLinks = [
@@ -196,6 +197,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'Green Tashkent - Interactive maps and charts',
+    description:
+      'A web article with interactive maps and charts, showcasing my spatial investigation of change in public green spaces in Tashkent using QGIS software',
+    tags: [
+      {
+        name: 'Svelte',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'QGIS',
+        color: 'green-text-gradient',
+      },{
+        name: 'd3.js',
+        color: 'color-purple-500',
+      },
+      {
+        name: 'tailwind-css',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: tashmap,
+    source_code_link:
+      'https://green-spaces-in-tashkent.vercel.app/',
+  },
   {
     name: 'Roll Ups - the websocket game',
     description:

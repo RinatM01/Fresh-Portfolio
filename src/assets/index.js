@@ -31,6 +31,7 @@ import portfolio from './portfolio.png';
 import patatap from './PatotapClone.jpg';
 import colorGame from './ColorGame.jpg';
 import rollUps from './roll-ups.png'
+import tashmap from './tashmap.png'
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   portfolio,
   patatap,
   colorGame,
-  rollUps
+  rollUps,
+  tashmap
 };
